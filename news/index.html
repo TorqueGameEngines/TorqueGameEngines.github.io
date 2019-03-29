@@ -1,0 +1,18 @@
+---
+layout: page
+title: News | Torque 3D
+root: ..
+---
+
+<div class="banner"><div class="container">
+    <h2>News Archive</h2>
+</div></div>
+
+<div class="container">
+    <p></p>
+    <ul class="list-unstyled">
+    {% for post in site.posts %}
+        {% include newsitem.html post=post %}
+    {% endfor %}
+    </ul>
+</div>

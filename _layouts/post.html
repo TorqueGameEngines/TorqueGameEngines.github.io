@@ -1,0 +1,18 @@
+---
+layout: default
+root: ../../..
+---
+
+<div class="banner"><div class="container">
+    <h2>{{page.title}}</h2>
+    <span class="meta pull-right">{{page.date | date_to_string}}</span>
+</div></div>
+
+<div class="container">
+    <div class="post">
+        {{ content }}
+    </div>
+
+    <br />
+    <a href="{{page.root}}/news"><i class="fa fa-angle-left"></i> Back to news archive</a>
+</div>

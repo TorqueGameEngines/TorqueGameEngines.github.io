@@ -1,0 +1,247 @@
+body {
+  overflow-y: scroll;
+}
+
+/*-----------------------------------------------------------------------------
+ * Bootstrap overrides
+ */
+
+.table.borderless > tbody > tr > td {
+  padding-top: 1em;
+}
+
+.table.borderless > tbody > tr,
+.table.borderless > tbody > tr > td {
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.table.borderless > tbody > tr:last-child,
+.table.borderless > tbody > tr:last-child > td {
+  border: none;
+}
+
+.contact td:first-child {
+  padding-right: 1em;
+  text-align: right;
+}
+
+.container {
+  max-width: 760px!important;
+}
+
+.site .navbar-default {
+  background-color: white;
+}
+
+.site p {
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.commit p {
+  text-align: left;
+}
+
+.site .media:first-child {
+  margin-top: 15px;
+}
+
+.site .carousel-control.right,
+.site .carousel-control.left {
+  background: none;
+  background-image: none;
+  opacity: 1.0;
+  text-shadow: none;
+}
+
+.site .carousel-indicators {
+  bottom: -40px;
+}
+
+.carousel-inner a {
+  color: white;
+}
+
+.site .carousel-indicators li {
+  border-radius: 3px;
+}
+
+.site .carousel-inner .item {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.link-muted {
+  color: #999 !important;
+}
+
+/*-----------------------------------------------------------------------------
+ * Site
+ */
+
+#torque-logo {
+  width: 140px;
+}
+
+@media (max-width: 768px) {
+  .jumbotron.banner .row,
+  .jumbotron.banner .row p {
+    text-align: center;
+  }
+}
+
+span.post-title {
+  font-weight: bold;
+}
+
+span.date {
+  color: gray;
+  margin-right: 1em;
+}
+
+h4 a,
+h4 a:hover {
+  color: rgb(51, 51, 51);
+}
+
+a.media-subheading,
+a.media-subheading:hover {
+  color: #666;
+  font-style: italic;
+  font-size: 90%;
+}
+
+.dropdown-toggle i {
+  margin-left: 0.3em;
+}
+
+.site {
+  margin: 51px auto 2em;
+  line-height: 1.5em;
+}
+
+.site .banner {
+  background: #990000;
+  color: white;
+}
+
+.break {
+  height: 144px;
+  width: 760px;
+  left: 50%;
+  margin-left: -380px;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.break img {
+  border-radius: 3px;
+}
+
+.site .banner .col-sm-4 {
+  text-align: center;
+}
+
+.site .carousel-control i {
+  position: absolute;
+  top: 50%;
+}
+
+.footer {
+  font-size: 80%;
+  color: #666;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+.footer .rss img {
+  border: 0;
+}
+
+.site ol ol {
+  list-style-type: lower-alpha;
+}
+
+.site .timeago {
+  font-size: smaller;
+  color: gray;
+  margin-top: 0;
+}
+
+pre.inline {
+  display: inline;
+  padding: 3px;
+  margin: 0 5px;
+}
+
+.commit {
+  margin-bottom: 10px;
+}
+
+.commit p {
+  margin: 0;
+}
+
+.fa-external-link {
+  font-size: 75%;
+}
+
+/*-----------------------------------------------------------------------------
+ * Static pages
+ */
+
+.page h3 {
+  color: #555;
+}
+
+.page .banner {
+  margin-top: 1em;
+}
+
+.banner h2 {
+  /* Fixes scrolling to anchors with the fixed navbar. */
+  margin-top: -60px;
+  padding-top: 70px;
+  display: inline-block;
+}
+
+img.feature,
+img.made-with-torque {
+  width: 128px;
+  border-radius: 3px;
+}
+
+@media (max-width: 360px) {
+  img.feature,
+  img.made-with-torque {
+    width: 96px;
+  }
+}
+
+img.history {
+  margin: 1em;
+}
+
+table.history > tbody > tr > td:first-child {
+  font-weight: bold;
+  width: 4em;
+  display: inline-block;
+}
+
+table.download > tbody > tr > td:first-child {
+  min-width: 10em;
+  font-weight: bold;
+}
+
+table.versioning > tbody > tr > td:first-child {
+  min-width: 8em;
+}
+
+/*-----------------------------------------------------------------------------
+ * Posts
+ */
+
+.meta {
+  margin-top: 10px;
+}
